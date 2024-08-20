@@ -16,8 +16,8 @@ This project allows users to draw their signature on a canvas element using a mo
 To get started with this project, clone the repository and open the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/your-username/signature-app.git
-cd signature-app
+git clone https://github.com/AYUSH-SE/Signature-app.git
+cd Signature-app
 open index.html
 
 signature-app/
