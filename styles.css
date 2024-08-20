@@ -1,0 +1,59 @@
+body {
+    background-image: url('moun.webp'); /* Replace with your image path */
+    background-size: cover; /* This ensures the image covers the whole background */
+    background-position: center; /* This centers the background image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* This keeps the canvas area white */
+    padding: 20px; /* Add padding if you want space around the canvas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Optional: Add shadow to the white area */
+    background-color: white;
+}
+
+.canvas {
+    border: 2px solid black;
+}
+
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.block,
+input,
+select,
+button {
+    width: 80%;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom>button {
+    margin: 10px;
+}
+
+.top>.block {
+    margin: 10px;
+}
+
+.block>p {
+    margin: 10px auto;
+    width: 50%;
+}
+.canvas-container{
+    background-color: white;
+}
