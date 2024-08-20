@@ -32,9 +32,12 @@ Usage
 Open index.html in your web browser.
 Use the mouse or touch input to draw your signature on the canvas.
 Click the "Clear" button to erase the signature and start over.
+
+
 Technologies Used
+
 HTML
 CSS
 JavaScript
-Contributing
+
 Feel free to submit issues or pull requests if you have any suggestions or improvements.
